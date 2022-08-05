@@ -22,20 +22,16 @@ body{
     opacity: 0.8;
 }
 
-.container{
+.wrapper{
     min-height: 100vh;
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;   
 }
-    
-
-   
-    
 
 
-.search-box{
+.search-input{
     /*margin: 1.2rem 0;*/
     display: flex;
     align-items: stretch;
