@@ -80,9 +80,17 @@ body{
     flex-direction: column;
     width: 26rem;
     margin-left: 3rem;
+    opacity: 0;
+    pointer-events: none;
 
     
 }
 li{
     list-style-type: none;
+    cursor: pointer;
+    display: none;
+}
+li:hover{
+    background-color: rgb(221, 212, 212);
+    
 }
