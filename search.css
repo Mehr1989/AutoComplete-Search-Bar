@@ -7,6 +7,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     background-color: rgb(123, 169, 170);
+    
 }
 
 .btn{
@@ -27,7 +28,8 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
-    text-align: center;   
+    text-align: center; 
+
 }
 
 
@@ -35,6 +37,16 @@ body{
     /*margin: 1.2rem 0;*/
     display: flex;
     align-items: stretch;
+}
+
+.search-input.active.outcome-box{
+    opacity: 1;
+    pointer-events: auto;
+
+}
+
+.search-input.active.outcome-box li{
+    display: block;
 }
 .search-control,
 .search-btn{
@@ -79,18 +91,20 @@ body{
     background-color: rgb(219, 203, 183);
     flex-direction: column;
     width: 26rem;
-    margin-left: 3rem;
-    opacity: 0;
-    pointer-events: none;
+    margin-left: 3rem;  
+  
+}
 
-    
-}
-li{
+.list-items{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
-    cursor: pointer;
-    display: none;
+    
+
 }
-li:hover{
-    background-color: rgb(221, 212, 212);
+.list-items:hover{
+    background-color: rgb(173, 170, 170);
     
 }
+    
